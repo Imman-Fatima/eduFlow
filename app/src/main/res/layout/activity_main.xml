@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#F4F5FF">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:src="@drawable/eduflow"
+        android:scaleType="fitCenter"
+        android:contentDescription="EduFlow Logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EduFlow"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#243B68"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to your account"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_margin="12dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#243B68"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="CREATE NEW ACCOUNT"
+        android:backgroundTint="#526DB5"/>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Continue with Google"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#243B68"/>
+
+</LinearLayout>
+

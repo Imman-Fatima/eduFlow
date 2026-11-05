@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#F4F5FF">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:src="@drawable/eduflow"
+        android:scaleType="fitCenter"
+        android:contentDescription="EduFlow Logo"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EduFlow!"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#243B68"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Learning Dashboard"
+        android:textSize="18sp"
+        android:textColor="#666666"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGOUT"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#243B68"/>
+
+</LinearLayout>
